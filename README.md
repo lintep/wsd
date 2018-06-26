@@ -1,1 +1,1 @@
-# wsd
+# Word Sense Disambiguation
