@@ -31,8 +31,10 @@ Download **wikipedia** dump file and do clean from ([here](https://github.com/li
 
 ### Step4: Store extracted co-occurrence into mysql database. 
 `java -cp lintep-wsd-1.0.jar:lib/* nlp.languagemodel.MapReduceToMysql args[0]`
+
      args[0]: wsd.properties file address.
 
 ### Step5: Disambiguate your examples.
 `java -cp com.lintep-1.0.jar:lib/* nlp.wsd.WSDSystem args[0]`
+
      args[0]: wsd.properties file address.
